@@ -1,4 +1,4 @@
-2"use client";
+"use client";
 
 import uniqid from "uniqid";
 import React, { useState } from 'react';
