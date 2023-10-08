@@ -1,4 +1,4 @@
-"use client";
+2"use client";
 
 import uniqid from "uniqid";
 import React, { useState } from 'react';
@@ -163,7 +163,7 @@ const UploadModal = () => {
             disabled={isLoading}
             type="file"
             accept="image/*"
-            id="image"
+            id="images"
             {...register('image', { required: true })}
           />
         </div>
